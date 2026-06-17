@@ -9,3 +9,14 @@
     padding: 80px 64px;
 }
 
+.footer {
+font-family:
+"Cormorant Garamond",
+serif;
+
+margin-bottom: 20px;
+}
+
+.footer__copyright {
+font-size: 14px;
+}
