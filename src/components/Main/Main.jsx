@@ -1,5 +1,9 @@
 import Hero from "../Hero/Hero";
 import About from "../About/About";
+import Services from "../Services/Services";
+import Projects from "../Projects/Projects";
+import Partners from "../Partners/Partners";
+// import Contact from "../Contact/Contact";
 
 function Main() {
     return (
@@ -9,7 +13,7 @@ function Main() {
       <About />
       <Services />
       <Projects />
-      {/* Partners */}
+      <Partners />
 
       {/* Contact */}
     </main>

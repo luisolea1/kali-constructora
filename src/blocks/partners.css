@@ -1,0 +1,75 @@
+.partners {
+  padding: 120px 0;
+
+  background-color: #ffffff;
+}
+
+.partners__content {
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 0 64px;
+}
+
+.partners__label {
+  display: block;
+
+  color: #c9a66b;
+
+  letter-spacing: 2px;
+
+  font-size: 12px;
+
+  margin-bottom: 24px;
+}
+
+.partners__title {
+  font-family:
+    "Cormorant Garamond",
+    serif;
+
+  font-size: 56px;
+
+  margin-bottom: 80px;
+}
+
+.partners__grid {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 32px;
+}
+
+.partners__item {
+  padding: 40px;
+
+  border: 1px solid #e6e6e6;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  color: #777777;
+
+  transition: 0.3s ease;
+}
+
+.partners__item:hover {
+  color: #111111;
+}
+
+@media screen and (max-width: 768px) {
+  .partners__content {
+    padding: 0 24px;
+  }
+
+  .partners__title {
+    font-size: 42px;
+  }
+
+  .partners__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
