@@ -1,0 +1,98 @@
+.services {
+  padding: 160px 0;
+
+  background-color: #ffffff;
+}
+
+.services__content {
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 0 64px;
+}
+
+.services__label {
+  display: block;
+
+  color: #c9a66b;
+
+  letter-spacing: 2px;
+
+  font-size: 12px;
+
+  margin-bottom: 24px;
+}
+
+.services__title {
+  font-family:
+    "Cormorant Garamond",
+    serif;
+
+  font-size: 56px;
+
+  max-width: 700px;
+
+  margin-bottom: 80px;
+}
+
+.services__grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  border-top: 1px solid #e0e0e0;
+
+  border-left: 1px solid #e0e0e0;
+}
+
+.services__card {
+  padding: 48px;
+
+  border-right: 1px solid #e0e0e0;
+
+  border-bottom: 1px solid #e0e0e0;
+
+  min-height: 260px;
+}
+
+.services__card-title {
+  font-family:
+    "Cormorant Garamond",
+    serif;
+
+  font-size: 32px;
+
+  margin-bottom: 24px;
+}
+
+.services__card-description {
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .services__grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    );
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services__content {
+    padding: 0 24px;
+  }
+
+  .services__title {
+    font-size: 42px;
+  }
+
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services__card {
+    padding: 32px;
+  }
+}
