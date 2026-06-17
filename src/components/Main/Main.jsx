@@ -7,11 +7,8 @@ function Main() {
       
       <Hero />
       <About />
-
-      {/* Services */}
-
-      {/* Projects */}
-
+      <Services />
+      <Projects />
       {/* Partners */}
 
       {/* Contact */}
