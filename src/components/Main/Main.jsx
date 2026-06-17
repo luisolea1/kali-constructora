@@ -3,7 +3,7 @@ import About from "../About/About";
 import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
 import Partners from "../Partners/Partners";
-// import Contact from "../Contact/Contact";
+import Contact from "../Contact/Contact";
 
 function Main() {
     return (
@@ -14,8 +14,7 @@ function Main() {
       <Services />
       <Projects />
       <Partners />
-
-      {/* Contact */}
+      <Contact />
     </main>
 );
 }

@@ -1,0 +1,57 @@
+.contact {
+  background-color: #111111;
+
+  color: #f8f8f8;
+
+  padding: 180px 0;
+}
+
+.contact__content {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 0 24px;
+}
+
+.contact__title {
+  font-family:
+    "Cormorant Garamond",
+    serif;
+
+  font-size: 72px;
+
+  margin-bottom: 32px;
+}
+
+.contact__description {
+  font-size: 20px;
+
+  line-height: 1.8;
+
+  margin-bottom: 48px;
+}
+
+.contact__button {
+  display: inline-block;
+
+  background-color: #c9a66b;
+
+  color: #111111;
+
+  padding: 18px 40px;
+
+  transition: 0.3s ease;
+}
+
+.contact__button:hover {
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__title {
+    font-size: 42px;
+  }
+}
