@@ -3,14 +3,11 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background-color: rgba(
-248,
-248,
-248,
-0.95
-);
+background-color: rgba(248, 248, 248, 0.95);
 backdrop-filter: blur(10px);
 z-index: 100;
+border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+transition: all 0.3s ease;
 }
 
 .header__content {
