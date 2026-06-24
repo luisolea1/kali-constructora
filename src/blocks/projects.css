@@ -55,20 +55,16 @@
 
 .projects__header {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   margin-bottom: 16px;
 }
 
 .projects__card-title {
-  font-family:
-    "Cormorant Garamond",
-    serif;
-
+  font-family: "Cormorant Garamond",serif;
   font-size: 42px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .projects__category {
