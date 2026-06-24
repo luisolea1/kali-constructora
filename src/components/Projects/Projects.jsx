@@ -1,37 +1,32 @@
 import "../../blocks/projects.css";
 
+import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
+import primavera1 from "../../images/projects/primavera/primavera_1.jpg";
+import primavera2 from "../../images/projects/primavera/primavera_2.jpg";
+import primavera3 from "../../images/projects/primavera/primavera_3.jpg";
+import primavera4 from "../../images/projects/primavera/primavera_4.jpg";
+import primavera5 from "../../images/projects/primavera/primavera_5.jpg";
+import primavera6 from "../../images/projects/primavera/primavera_6.jpg";
+
 function Projects() {
   const projects = [
-    {
-      title: "Residencia Premium",
-      location: "Cuernavaca, Morelos",
-      category: "Diseño y Construcción",
-      description:
-        "Proyecto residencial de alta gama enfocado en funcionalidad, diseño contemporáneo y acabados premium.",
-      image:
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
-    },
-    {
-      title: "Remodelación Comercial",
-      location: "Ciudad de México",
-      category: "Remodelación",
-      description:
-        "Renovación integral de espacios comerciales optimizando circulación, imagen y experiencia del usuario.",
-      image:
-        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2",
-    },
-    {
-      title: "Interiorismo Corporativo",
-      location: "Morelos",
-      category: "Diseño Interior",
-      description:
-        "Diseño y ejecución de espacios corporativos modernos alineados con la identidad empresarial.",
-      image:
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-    },
-  ];
+{
+  title: "Residencia Primavera",
+  location: "Cuernavaca, Morelos",
+  category: "Diseño y Construcción",
+  description:
+    "Proyecto residencial de alta gama enfocado en funcionalidad, diseño contemporáneo y acabados premium.",
 
-  return (
+  images: [
+    primavera1,
+    primavera2,
+    primavera3,
+    primavera4,
+  ],
+},
+];
+
+return (
     <section
       className="projects"
       id="proyectos"
@@ -51,10 +46,8 @@ function Projects() {
               key={project.title}
               className="projects__card"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="projects__image"
+              <ProjectCarousel
+                images={project.images}
               />
 
               <div className="projects__information">
