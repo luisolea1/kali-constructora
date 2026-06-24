@@ -1,5 +1,8 @@
 import "../../blocks/hero.css";
 
+import heroImage from "../../images/hero/hero_image.jpg";
+
+
 
 function Hero() {
 return (
@@ -44,7 +47,7 @@ return (
 
         <div className="hero__image-container">
           <img
-            src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2"
+            src={heroImage}
             alt="Proyecto KALI"
             className="hero__image"
           />
