@@ -1,4 +1,5 @@
 import "../../blocks/about.css";
+import aboutImage from "../../images/about/about_image.jpg";
 
 function About() {
   return (
@@ -6,15 +7,9 @@ function About() {
       className="about"
       id="acerca"
     >
-      <div className="about__content">
-        <div className="about__image-container">
-          <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd"
-            alt="Equipo KALI"
-            className="about__image"
-          />
-        </div>
 
+
+<div className="about__content">
         <div className="about__text">
           <h2 className="about__title">
             Nuestra filosofía
@@ -46,6 +41,13 @@ function About() {
               Comunicación constante
             </li>
           </ul>
+        </div>
+        <div className="about__image-container">
+          <img
+            src={aboutImage}
+            alt="Equipo KALI"
+            className="about__image"
+          />
         </div>
       </div>
     </section>
