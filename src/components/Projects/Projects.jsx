@@ -1,10 +1,10 @@
 import "../../blocks/projects.css";
 
 import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
-import primavera from "../../data/projects/primavera";
+import projects from "../../data/projects";
 
 function Projects() {
-const projects = [primavera];
+
 
 return (
     <section
