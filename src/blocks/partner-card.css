@@ -55,4 +55,8 @@
     filter: grayscale(0);
     opacity: 1;
   }
+
+  .partner-card {
+    padding: 12px;
+  }
 }

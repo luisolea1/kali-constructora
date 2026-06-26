@@ -54,7 +54,7 @@
 .partners__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px; 
+  gap: 32px; 
 }
 
 
@@ -79,6 +79,6 @@
 
   .partners__grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 12px;
   }
 }
