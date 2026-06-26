@@ -55,10 +55,10 @@ function Footer() {
           </h3>
 
           <a
-            href="tel:+527770000000"
+            href="tel:+527771882476"
             className="footer__link"
           >
-            +52 777 000 0000
+            +52 7771882476
           </a>
 
           <a

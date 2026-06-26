@@ -18,7 +18,7 @@ function Contact() {
         </p>
 
         <a
-          href="https://wa.me/5217770000000"
+          href="https://wa.me/527771882476"
           target="_blank"
           rel="noreferrer"
           className="contact__button"
