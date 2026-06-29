@@ -19,13 +19,7 @@ return (
           </h1>
 
           <p className="hero__description">
-            Diseñamos, construimos y
-            supervisamos proyectos
-            residenciales, comerciales e
-            industriales con un enfoque
-            basado en la planeación, la
-            confianza y la excelencia
-            operativa.
+          Cada proyecto representa una visión, una inversión y un legado. En Constructora Kali combinamos diseño, innovación y excelencia constructiva para crear espacios que destacan por su funcionalidad, estética y calidad. Nuestro compromiso es entregar obras ejecutadas con precisión, transparencia y una atención excepcional en cada detalle.
           </p>
 
           <div className="hero__buttons">
