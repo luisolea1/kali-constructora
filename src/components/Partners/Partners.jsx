@@ -17,13 +17,11 @@ function Partners() {
         <div className="partners__divider"></div>
 
         <h2 className="partners__title">
-          Empresas que han confiado en nuestro trabajo
+          Empresas que confían en KALI
         </h2>
 
         <p className="partners__description">
-          Hemos colaborado con empresas privadas e instituciones públicas,
-          desarrollando proyectos con el mismo compromiso, calidad y
-          profesionalismo que caracteriza a KALI.
+         Trabajamos de la mano con organizaciones que comparten nuestra visión de calidad, diseño y compromiso con la excelencia.
         </p>
 
         <div className="partners__grid">

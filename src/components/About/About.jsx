@@ -16,31 +16,23 @@ function About() {
           </h2>
 
           <p className="about__paragraph">
-            En KALI creemos que una obra
-            exitosa no solo se mide por
-            el resultado final, sino por
-            la experiencia completa del
-            cliente durante todo el
-            proceso.
+          Creemos que una construcción excepcional comienza mucho antes del primer cimiento. Nace de escuchar, planear y comprender la visión de cada cliente.
           </p>
 
-          <ul className="about__values">
-            <li className="about__value">
-              Cumplimiento real
-            </li>
+          <p className="about__paragraph">
+  En Constructora KALI entendemos que cada proyecto representa una inversión
+  importante y una responsabilidad que asumimos con profesionalismo. Por ello
+  trabajamos con transparencia, disciplina y una ejecución meticulosa, cuidando
+  cada detalle desde el diseño hasta la entrega final.
+</p>
 
-            <li className="about__value">
-              Transparencia total
-            </li>
+<p className="about__paragraph">
+  No buscamos únicamente construir edificios o remodelar espacios; buscamos
+  crear entornos que aporten valor, reflejen la identidad de nuestros clientes
+  y permanezcan como un legado de calidad, funcionalidad y diseño.
+</p>
 
-            <li className="about__value">
-              Calidad garantizada
-            </li>
 
-            <li className="about__value">
-              Comunicación constante
-            </li>
-          </ul>
         </div>
         <div className="about__image-container">
           <img
