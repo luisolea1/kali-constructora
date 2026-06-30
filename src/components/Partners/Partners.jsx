@@ -21,7 +21,7 @@ function Partners() {
         </h2>
 
         <p className="partners__description">
-         Trabajamos de la mano con organizaciones que comparten nuestra visión de calidad, diseño y compromiso con la excelencia.
+        Trabajamos de la mano con organizaciones que comparten nuestra visión de calidad, diseño y compromiso con la excelencia.
         </p>
 
         <div className="partners__grid">

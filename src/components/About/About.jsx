@@ -15,9 +15,7 @@ function About() {
             Nuestra filosofía
           </h2>
 
-          <p className="about__paragraph">
-          Creemos que una construcción excepcional comienza mucho antes del primer cimiento. Nace de escuchar, planear y comprender la visión de cada cliente.
-          </p>
+
 
           <p className="about__paragraph">
   En Constructora KALI entendemos que cada proyecto representa una inversión
@@ -27,9 +25,7 @@ function About() {
 </p>
 
 <p className="about__paragraph">
-  No buscamos únicamente construir edificios o remodelar espacios; buscamos
-  crear entornos que aporten valor, reflejen la identidad de nuestros clientes
-  y permanezcan como un legado de calidad, funcionalidad y diseño.
+  No buscamos únicamente construir edificios o remodelar espacios; buscamos crear entornos que aporten valor, reflejen la identidad de nuestros clientes y permanezcan como un legado de calidad, funcionalidad y diseño.
 </p>
 
 
