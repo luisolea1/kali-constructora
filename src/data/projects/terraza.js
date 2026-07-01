@@ -4,7 +4,7 @@ import terraza3 from "../../images/projects/terraza/terraza_3.jpg";
 import terraza4 from "../../images/projects/terraza/terraza_4.jpg";
 
 const terraza = {
-  title: "Terraza y pérgola",
+  title: "Terraza Fiesta Americana",
   location: "Cuernavaca, Morelos",
   category: "Amenidades Hoteleras",
   description:
