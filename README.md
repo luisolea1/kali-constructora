@@ -1,19 +1,52 @@
-# React + Vite
+# Constructora KALI
 
-https://luisolea1.github.io/kali-constructora/ 
+Sitio corporativo de Constructora KALI, desarrollado como una landing page
+responsiva con React y Vite. Presenta los servicios, proyectos, aliados y vías
+de contacto de la empresa.
 
+## Requisitos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Node.js 20.19, 22.12 o una versión posterior compatible
+- pnpm 11
 
-Currently, two official plugins are available:
+## Desarrollo local
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+pnpm install
+pnpm dev
+```
 
-## React Compiler
+El servidor de desarrollo se abre en `http://localhost:3000`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Comandos
 
-## Expanding the ESLint configuration
+```bash
+pnpm dev      # Inicia Vite con recarga en caliente
+pnpm lint     # Ejecuta ESLint
+pnpm build    # Genera la versión de producción en dist/
+pnpm preview  # Sirve localmente el build de producción
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura
+
+```text
+src/
+├── blocks/       Estilos CSS por bloque
+├── components/   Secciones y componentes de interfaz
+├── data/         Proyectos y aliados
+├── hooks/        Lógica reutilizable de React
+├── images/       Imágenes utilizadas por el sitio
+└── vendor/       Estilos externos normalizados
+```
+
+La aplicación es una sola página. `Main.jsx` compone las distintas secciones y
+la navegación utiliza enlaces internos. Los carruseles de proyectos se
+implementan con Embla Carousel.
+
+## Despliegue
+
+El proyecto se despliega en Vercel. El comando de construcción es
+`pnpm build` y el directorio de salida es `dist`.
+
+Si el repositorio está conectado a Vercel, cada cambio enviado a la rama de
+producción crea un nuevo despliegue automáticamente.

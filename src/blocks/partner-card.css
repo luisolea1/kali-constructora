@@ -4,8 +4,7 @@
   align-items: center;
   padding: 32px;
   background: #000000;
-
-  border: 1px solid rgba(255,255,255,.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   transition:
     transform 0.35s ease,
@@ -25,17 +24,17 @@
   height: auto;
   object-fit: contain;
   filter: grayscale(100%);
-  opacity: .75;
-    transition:
+  opacity: 0.75;
+  transition:
     transform 0.35s ease,
-    border-color 0.35s ease,
-    box-shadow 0.35s ease;
+    filter 0.35s ease,
+    opacity 0.35s ease;
 }
 
 .partner-card:hover .partner-card__logo {
   filter: grayscale(0);
 
-  opacity:1;
+  opacity: 1;
   transform: scale(1.05);
 }
 

@@ -4,9 +4,7 @@ import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 import projects from "../../data/projects";
 
 function Projects() {
-
-
-return (
+  return (
     <section
       className="projects"
       id="proyectos"
@@ -28,6 +26,7 @@ return (
             >
               <ProjectCarousel
                 images={project.images}
+                projectTitle={project.title}
               />
 
               <div className="projects__information">

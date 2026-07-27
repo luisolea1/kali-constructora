@@ -5,7 +5,7 @@ import heroImage from "../../images/hero/hero_image.jpg";
 
 
 function Hero() {
-return (
+  return (
     <section
       className="hero"
       id="inicio"
@@ -42,11 +42,14 @@ return (
         <div className="hero__image-container">
           <img
             src={heroImage}
-            alt="Proyecto KALI"
+            alt="Residencia construida por Constructora KALI"
             className="hero__image"
+            width="1086"
+            height="1448"
+            fetchPriority="high"
           />
 
-          <div className="hero__overlay"></div>
+          <div className="hero__overlay" aria-hidden="true"></div>
         </div>
       </div>
     </section>

@@ -1,42 +1,27 @@
 import { useCallback, useState, useEffect } from "react";
 
 export function useCarousel(emblaApi) {
-const [canScrollPrev, setCanScrollPrev] =
-    useState(false);
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
 
-const [canScrollNext, setCanScrollNext] =
-    useState(false);
-
-const updateButtons = useCallback(() => {
+  const updateButtons = useCallback(() => {
     if (!emblaApi) return;
 
-    setCanScrollPrev(
-      emblaApi.canScrollPrev()
-    );
-
-    setCanScrollNext(
-      emblaApi.canScrollNext()
-    );
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setCanScrollNext(emblaApi.canScrollNext());
   }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;
 
-    updateButtons();
-
     emblaApi.on("select", updateButtons);
     emblaApi.on("reInit", updateButtons);
+    const animationFrameId = requestAnimationFrame(updateButtons);
 
     return () => {
-      emblaApi.off(
-        "select",
-        updateButtons
-      );
-
-      emblaApi.off(
-        "reInit",
-        updateButtons
-      );
+      cancelAnimationFrame(animationFrameId);
+      emblaApi.off("select", updateButtons);
+      emblaApi.off("reInit", updateButtons);
     };
   }, [emblaApi, updateButtons]);
 

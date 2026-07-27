@@ -1,4 +1,4 @@
-import fogatero1 from "../../images/projects/fogatero/fogatero_1 .jpg";
+import fogatero1 from "../../images/projects/fogatero/fogatero_1.jpg";
 import fogatero2 from "../../images/projects/fogatero/fogatero_2.jpg";
 import fogatero3 from "../../images/projects/fogatero/fogatero_3.jpg";
 import fogatero4 from "../../images/projects/fogatero/fogatero_4.jpg";
@@ -9,7 +9,7 @@ title: "Fogatero artesanal",
 location: "Cuernavaca, Morelos",
 category: "Amenidades Exteriores",
 description:
-    "Fogatero artesanal elaborado con piedra volcánica, mamposteria y detalles en tabique rojo, diseñado para brindar calidez y estilo a los espacios exteriores. Su diseño único permite disfrutar de la experiencia de un fuego al aire libre, creando un ambiente acogedor y elegante.",
+    "Fogatero artesanal elaborado con piedra volcánica, mampostería y detalles en tabique rojo, diseñado para brindar calidez y estilo a los espacios exteriores. Su diseño único permite disfrutar de la experiencia de un fuego al aire libre, creando un ambiente acogedor y elegante.",
 
   images: [
     fogatero1,

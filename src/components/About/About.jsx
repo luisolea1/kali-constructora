@@ -33,8 +33,12 @@ function About() {
         <div className="about__image-container">
           <img
             src={aboutImage}
-            alt="Equipo KALI"
+            alt="Detalle arquitectónico de un proyecto de Constructora KALI"
             className="about__image"
+            width="874"
+            height="1011"
+            loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ title: "Casa Maya",
 location: "Cuernavaca, Morelos",
 category: "Arquitectura Residencial & Paisajismo",
 description:
-    "La estructura limpia de la vivienda se extiende hacia un patio central donde destaca una alberca de líneas orgánicas, enmarcada por pavimentos pétreos oscuros y muros en acabado arena. El proyecto integra texturas naturales, manejo de transiciones de luz,logrando un balance perfecto entre privacidad, eficiencia climática y alta estética corporativa.",
+    "La estructura limpia de la vivienda se extiende hacia un patio central donde destaca una alberca de líneas orgánicas, enmarcada por pavimentos pétreos oscuros y muros en acabado arena. El proyecto integra texturas naturales y transiciones de luz, logrando un balance perfecto entre privacidad, eficiencia climática y alta estética corporativa.",
 
   images: [
     maya_1,

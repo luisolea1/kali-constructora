@@ -100,7 +100,15 @@
   }
 
   .hero__title {
-    font-size: 48px;
+    font-size: clamp(40px, 12vw, 48px);
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+  }
+
+  .hero__button {
+    text-align: center;
   }
 
   .hero__image-container {
