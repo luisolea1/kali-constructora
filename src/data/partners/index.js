@@ -1,7 +1,7 @@
-import fiestaAmericana from "../../images/partners/fiesta-americana.jpg";
-import tlayacapan from "../../images/partners/tlayacapan.jpg";
-import esigar from "../../images/partners/esigar.jpg";
-import cbta from "../../images/partners/cbata.jpg";
+import fiestaAmericana from "../../images/partners/fiesta-americana.webp";
+import tlayacapan from "../../images/partners/tlayacapan.webp";
+import esigar from "../../images/partners/esigar.webp";
+import cbta from "../../images/partners/cbata.webp";
 
 const partners = [
 {

@@ -1,20 +1,15 @@
-import primavera1 from "../../images/projects/primavera/primavera_1.jpg";
-import primavera2 from "../../images/projects/primavera/primavera_2.jpg";
-import primavera3 from "../../images/projects/primavera/primavera_3.jpg";
-import primavera4 from "../../images/projects/primavera/primavera_4.jpg";
-import primavera5 from "../../images/projects/primavera/primavera_5.jpg";
-import primavera6 from "../../images/projects/primavera/primavera_6.jpg";
-import primavera7 from "../../images/projects/primavera/primavera_7.jpg";
-import primavera8 from "../../images/projects/primavera/primavera_8.jpg";
-import primavera9 from "../../images/projects/primavera/primavera_9.jpg";
-import primavera10 from "../../images/projects/primavera/primavera_10.jpg";
-import primavera61 from "../../images/projects/primavera/primavera_61.jpg";
-import primavera81 from "../../images/projects/primavera/primavera_81.jpg";
-
-
-
-
-
+import primavera1 from "../../images/projects/primavera/primavera_1.webp";
+import primavera2 from "../../images/projects/primavera/primavera_2.webp";
+import primavera3 from "../../images/projects/primavera/primavera_3.webp";
+import primavera4 from "../../images/projects/primavera/primavera_4.webp";
+import primavera5 from "../../images/projects/primavera/primavera_5.webp";
+import primavera6 from "../../images/projects/primavera/primavera_6.webp";
+import primavera7 from "../../images/projects/primavera/primavera_7.webp";
+import primavera8 from "../../images/projects/primavera/primavera_8.webp";
+import primavera9 from "../../images/projects/primavera/primavera_9.webp";
+import primavera10 from "../../images/projects/primavera/primavera_10.webp";
+import primavera61 from "../../images/projects/primavera/primavera_61.webp";
+import primavera81 from "../../images/projects/primavera/primavera_81.webp";
 const primavera = {
   title: "Residencia Primavera",
 

@@ -1,5 +1,5 @@
 import "../../blocks/about.css";
-import aboutImage from "../../images/about/about_image.jpg";
+import aboutImage from "../../images/about/about_image.webp";
 
 function About() {
   return (

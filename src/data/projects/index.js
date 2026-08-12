@@ -3,7 +3,9 @@ import fogatero from './fogatero'
 import maya from './maya';
 import cancha from './cancha';
 import terraza from './terraza';
+import palapat from './palapat';
+import restauracionp from './restauracionp';
 
-const projects = [primavera, fogatero, maya, cancha, terraza];
+const projects = [primavera, fogatero, maya, cancha, terraza, palapat, restauracionp];
 
 export default projects;

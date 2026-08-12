@@ -1,6 +1,6 @@
 import "../../blocks/hero.css";
 
-import heroImage from "../../images/hero/hero_image.jpg";
+import heroImage from "../../images/hero/hero_image.webp";
 
 
 

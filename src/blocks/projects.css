@@ -38,6 +38,14 @@
   gap: 120px;
 }
 
+.projects__gallery[hidden] {
+  display: none;
+}
+
+.projects__gallery_additional {
+  margin-top: 80px;
+}
+
 .projects__card {
   display: flex;
 
@@ -81,6 +89,72 @@
   line-height: 1.8;
 }
 
+.projects__more-control {
+  position: sticky;
+  bottom: 24px;
+  z-index: 10;
+  width: max-content;
+  margin: 48px auto 0;
+}
+
+.projects__more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 132px;
+  padding: 14px 20px;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 16px;
+  background-color: rgba(248, 248, 248, 0.82);
+  box-shadow: 0 12px 36px rgba(17, 17, 17, 0.12);
+  color: var(--color-carbon-black);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.projects__more-button:hover {
+  border-color: rgba(17, 17, 17, 0.18);
+  background-color: rgba(248, 248, 248, 0.95);
+  box-shadow: 0 16px 42px rgba(17, 17, 17, 0.16);
+  transform: translateY(-2px);
+}
+
+.projects__more-icon {
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.projects__more-icon_expanded {
+  transform: rotate(180deg);
+}
+
+.projects__card_revealed {
+  animation: project-reveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes project-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .projects__content {
     padding: 0 24px;
@@ -100,5 +174,19 @@
     align-items: flex-start;
 
     gap: 12px;
+  }
+
+  .projects__gallery,
+  .projects__gallery_additional {
+    gap: 80px;
+  }
+
+  .projects__gallery_additional {
+    margin-top: 64px;
+  }
+
+  .projects__more-control {
+    bottom: 16px;
+    margin-top: 36px;
   }
 }

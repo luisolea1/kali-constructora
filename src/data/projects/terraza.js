@@ -1,7 +1,7 @@
-import terraza1 from "../../images/projects/terraza/terraza_1.jpg";
-import terraza2 from "../../images/projects/terraza/terraza_2.jpg";
-import terraza3 from "../../images/projects/terraza/terraza_3.jpg";
-import terraza4 from "../../images/projects/terraza/terraza_4.jpg";
+import terraza1 from "../../images/projects/terraza/terraza_1.webp";
+import terraza2 from "../../images/projects/terraza/terraza_2.webp";
+import terraza3 from "../../images/projects/terraza/terraza_3.webp";
+import terraza4 from "../../images/projects/terraza/terraza_4.webp";
 
 const terraza = {
   title: "Terraza Fiesta Americana",

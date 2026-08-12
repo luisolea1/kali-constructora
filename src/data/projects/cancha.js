@@ -1,10 +1,10 @@
-import cancha1 from "../../images/projects/cancha/cancha_1.jpg";
-import cancha2 from "../../images/projects/cancha/cancha_2.jpg";
-import cancha3 from "../../images/projects/cancha/cancha_3.jpg";
-import cancha4 from "../../images/projects/cancha/cancha_4.jpg";
-import cancha5 from "../../images/projects/cancha/cancha_5.jpg";
-import cancha6 from "../../images/projects/cancha/cancha_6.jpg";
-import cancha7 from "../../images/projects/cancha/cancha_7.jpg";
+import cancha1 from "../../images/projects/cancha/cancha_1.webp";
+import cancha2 from "../../images/projects/cancha/cancha_2.webp";
+import cancha3 from "../../images/projects/cancha/cancha_3.webp";
+import cancha4 from "../../images/projects/cancha/cancha_4.webp";
+import cancha5 from "../../images/projects/cancha/cancha_5.webp";
+import cancha6 from "../../images/projects/cancha/cancha_6.webp";
+import cancha7 from "../../images/projects/cancha/cancha_7.webp";
 
 const cancha = {
 title: "Cancha de fútbol 7",

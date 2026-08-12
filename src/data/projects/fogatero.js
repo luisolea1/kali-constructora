@@ -1,8 +1,8 @@
-import fogatero1 from "../../images/projects/fogatero/fogatero_1.jpg";
-import fogatero2 from "../../images/projects/fogatero/fogatero_2.jpg";
-import fogatero3 from "../../images/projects/fogatero/fogatero_3.jpg";
-import fogatero4 from "../../images/projects/fogatero/fogatero_4.jpg";
-import fogatero5 from "../../images/projects/fogatero/fogatero_5.jpg";
+import fogatero1 from "../../images/projects/fogatero/fogatero_1.webp";
+import fogatero2 from "../../images/projects/fogatero/fogatero_2.webp";
+import fogatero3 from "../../images/projects/fogatero/fogatero_3.webp";
+import fogatero4 from "../../images/projects/fogatero/fogatero_4.webp";
+import fogatero5 from "../../images/projects/fogatero/fogatero_5.webp";
 
 const fogatero = {
 title: "Fogatero artesanal",

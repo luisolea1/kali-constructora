@@ -1,7 +1,7 @@
-import maya_1 from "../../images/projects/maya/maya_1.jpg";
-import maya_2 from "../../images/projects/maya/maya_2.jpg";
-import maya_3 from "../../images/projects/maya/maya_3.jpg";
-import maya_4 from "../../images/projects/maya/maya_4.jpg";
+import maya_1 from "../../images/projects/maya/maya_1.webp";
+import maya_2 from "../../images/projects/maya/maya_2.webp";
+import maya_3 from "../../images/projects/maya/maya_3.webp";
+import maya_4 from "../../images/projects/maya/maya_4.webp";
 
 const maya = {
 title: "Casa Maya",
