@@ -8,14 +8,14 @@ import restauracionp6 from "../../images/projects/restauracionp/restauracionp_6.
 import restauracionp7 from "../../images/projects/restauracionp/restauracionp_7.webp";
 
 const restauracionp = {
-  title: "Restauración de Fachada",
+  title: "Renovación de Macro-Palapa",
 
-  location: "Cuernavaca, Morelos",
+  location: "Xochitepec, Morelos",
 
-  category: "Arquitectura Residencial de lujo",
+  category: "Restauración y Mantenimiento",
 
   description:
-    "La fachada de esta residencia fue sometida a un proceso de restauración que incluyó la limpieza y reparación de los elementos arquitectónicos, así como la aplicación de un nuevo acabado que realza la belleza de la estructura. El resultado es una fachada revitalizada que conserva su carácter original mientras se adapta a las necesidades contemporáneas.",
+    "En este proyecto asumimos el reto de rehabilitar y renovar una imponente palapa de gran escala en el histórico hotel Fiesta Americana de Xochitepec, Morelos. Un trabajo de alta precisión técnica que devolvió la majestuosidad y seguridad a una de las estructuras más icónicas del complejo.",
 
   images: [
     restauracionp0,

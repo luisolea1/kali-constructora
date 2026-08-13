@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { m, useReducedMotion } from "motion/react";
 
 import "../../blocks/projects.css";
 
@@ -6,9 +7,22 @@ import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 import projects from "../../data/projects";
 
 function ProjectCard({ project, isRevealed = false }) {
+  const prefersReducedMotion = useReducedMotion();
+
   return (
-    <article
-      className={`projects__card ${isRevealed ? "projects__card_revealed" : ""}`}
+    <m.article
+      className="projects__card"
+      initial={
+        prefersReducedMotion
+          ? false
+          : { opacity: 0, y: isRevealed ? 32 : 48 }
+      }
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.12 }}
+      transition={{
+        duration: isRevealed ? 0.58 : 0.72,
+        ease: [0.22, 1, 0.36, 1],
+      }}
     >
       <ProjectCarousel
         images={project.images}
@@ -34,7 +48,7 @@ function ProjectCard({ project, isRevealed = false }) {
           {project.description}
         </p>
       </div>
-    </article>
+    </m.article>
   );
 }
 
@@ -65,7 +79,11 @@ function Projects() {
 
         {additionalProjects.length > 0 && (
           <>
-            <div className="projects__more-control">
+            <div
+              className={`projects__more-control ${
+                showAllProjects ? "projects__more-control_expanded" : ""
+              }`}
+            >
               <button
                 type="button"
                 className="projects__more-button"

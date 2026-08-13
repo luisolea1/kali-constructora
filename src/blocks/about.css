@@ -27,11 +27,13 @@
 }
 
 .about__title {
-  font-family:
-    "Cormorant Garamond",
-    serif;
+  font-family: "Barlow", sans-serif;
 
   font-size: 56px;
+
+  font-weight: 500;
+
+  line-height: 1.1;
 
   margin-bottom: 32px;
 }

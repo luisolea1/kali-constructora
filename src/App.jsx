@@ -1,14 +1,20 @@
+import { LazyMotion, domAnimation } from 'motion/react';
+
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
+import ScrollProgress from './components/ScrollProgress/ScrollProgress';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <LazyMotion features={domAnimation}>
+      <div className="App">
+        <ScrollProgress />
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </LazyMotion>
   );
 }
 

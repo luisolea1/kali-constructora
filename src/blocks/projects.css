@@ -23,10 +23,10 @@
 }
 
 .projects__title {
-  font-family:
-    "Cormorant Garamond",
-    serif;
+  font-family: "Barlow", sans-serif;
   font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
   margin-bottom: 30px;
 }
 
@@ -67,8 +67,10 @@
 }
 
 .projects__card-title {
-  font-family: "Cormorant Garamond",serif;
+  font-family: "Barlow", sans-serif;
   font-size: 42px;
+  font-weight: 500;
+  line-height: 1.1;
   margin-top: 12px;
   margin-bottom: 12px;
 }
@@ -90,11 +92,15 @@
 }
 
 .projects__more-control {
-  position: sticky;
-  bottom: 24px;
+  position: relative;
   z-index: 10;
   width: max-content;
   margin: 48px auto 0;
+}
+
+.projects__more-control_expanded {
+  position: sticky;
+  top: calc(100dvh - 84px);
 }
 
 .projects__more-button {
@@ -139,22 +145,6 @@
   transform: rotate(180deg);
 }
 
-.projects__card_revealed {
-  animation: project-reveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-@keyframes project-reveal {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .projects__content {
     padding: 0 24px;
@@ -186,7 +176,10 @@
   }
 
   .projects__more-control {
-    bottom: 16px;
     margin-top: 36px;
+  }
+
+  .projects__more-control_expanded {
+    top: calc(100dvh - 76px);
   }
 }

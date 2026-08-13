@@ -4,19 +4,32 @@ import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
 import Partners from "../Partners/Partners";
 import Contact from "../Contact/Contact";
+import ScrollReveal from "../ScrollReveal/ScrollReveal";
 
 function Main() {
-    return (
+  return (
     <main className="page">
-      
       <Hero />
-      <About />
-      <Services />
+
+      <ScrollReveal>
+        <About />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <Services />
+      </ScrollReveal>
+
       <Projects />
-      <Partners />
-      <Contact />
+
+      <ScrollReveal>
+        <Partners />
+      </ScrollReveal>
+
+      <ScrollReveal>
+        <Contact />
+      </ScrollReveal>
     </main>
-);
+  );
 }
 
 export default Main;

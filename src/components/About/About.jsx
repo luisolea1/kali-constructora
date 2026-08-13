@@ -19,7 +19,11 @@ function About() {
 
           <p className="about__paragraph">
   En Constructora KALI entendemos que cada proyecto representa una inversión
-  importante y una responsabilidad que asumimos con profesionalismo. Por ello
+  importante y una responsabilidad que asumimos con profesionalismo. 
+</p>
+
+<p className="about__paragraph">
+  Por ello
   trabajamos con transparencia, disciplina y una ejecución meticulosa, cuidando
   cada detalle desde el diseño hasta la entrega final.
 </p>
