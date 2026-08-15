@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { m, useReducedMotion } from "motion/react";
 
 import "../../blocks/projects.css";
@@ -54,8 +54,63 @@ function ProjectCard({ project, isRevealed = false }) {
 
 function Projects() {
   const [showAllProjects, setShowAllProjects] = useState(false);
+  const prefersReducedMotion = useReducedMotion();
+  const collapseTargetRef = useRef(null);
+  const moreButtonRef = useRef(null);
+  const collapseCleanupRef = useRef(() => {});
   const featuredProjects = projects.slice(0, 2);
   const additionalProjects = projects.slice(2);
+
+  useEffect(() => () => collapseCleanupRef.current(), []);
+
+  const finishCollapse = () => {
+    setShowAllProjects(false);
+
+    window.requestAnimationFrame(() => {
+      moreButtonRef.current?.focus({ preventScroll: true });
+    });
+  };
+
+  const handleProjectsToggle = () => {
+    if (!showAllProjects) {
+      setShowAllProjects(true);
+      return;
+    }
+
+    collapseCleanupRef.current();
+
+    if (prefersReducedMotion) {
+      collapseTargetRef.current?.scrollIntoView({ block: "center" });
+      finishCollapse();
+      return;
+    }
+
+    let fallbackTimerId;
+    let hasFinished = false;
+
+    const completeCollapse = () => {
+      if (hasFinished) return;
+
+      hasFinished = true;
+      window.removeEventListener("scrollend", completeCollapse);
+      window.clearTimeout(fallbackTimerId);
+      collapseCleanupRef.current = () => {};
+      finishCollapse();
+    };
+
+    collapseCleanupRef.current = () => {
+      window.removeEventListener("scrollend", completeCollapse);
+      window.clearTimeout(fallbackTimerId);
+    };
+
+    window.addEventListener("scrollend", completeCollapse, { once: true });
+    fallbackTimerId = window.setTimeout(completeCollapse, 1200);
+
+    collapseTargetRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  };
 
   return (
     <section
@@ -77,6 +132,12 @@ function Projects() {
           ))}
         </div>
 
+        <div
+          ref={collapseTargetRef}
+          className="projects__collapse-target"
+          aria-hidden="true"
+        />
+
         {additionalProjects.length > 0 && (
           <>
             <div
@@ -85,9 +146,10 @@ function Projects() {
               }`}
             >
               <button
+                ref={moreButtonRef}
                 type="button"
                 className="projects__more-button"
-                onClick={() => setShowAllProjects((isVisible) => !isVisible)}
+                onClick={handleProjectsToggle}
                 aria-expanded={showAllProjects}
                 aria-controls="additional-projects"
               >
