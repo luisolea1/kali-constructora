@@ -32,7 +32,6 @@ La interfaz combina una dirección visual sobria con navegación fluida, animaci
 | Embla Carousel | Carruseles táctiles y responsivos para las galerías de proyectos. |
 | CSS | Sistema visual responsivo, variables globales, efectos translúcidos y estilos por bloque. |
 | Fontsource | Distribución local de las tipografías Inter y Cormorant Garamond. |
-| Sharp | Conversión y optimización automatizada de imágenes JPG a WebP. |
 | ESLint | Análisis estático y control de calidad del código. |
 
 ## Diseño y tipografía

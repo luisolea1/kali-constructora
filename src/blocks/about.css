@@ -4,25 +4,17 @@
 
 .about__content {
   max-width: 1280px;
-
   margin: 0 auto;
-
   padding: 0 64px;
-
   display: grid;
-
   grid-template-columns: 1fr 1fr;
-
   gap: 64px;
-
   align-items: center;
 }
 
 .about__image {
   width: 100%;
-
-  height: 700px;
-
+  height: 600px;
   object-fit: cover;
 }
 
@@ -41,22 +33,18 @@
 
 .about__values {
   display: flex;
-
   flex-direction: column;
-
   gap: 20px;
 }
 
 .about__value {
   font-size: 18px;
-
   color: #c9a66b;
 }
 
 @media screen and (max-width: 768px) {
   .about__content {
     grid-template-columns: 1fr;
-
     padding: 0 24px;
   }
 
