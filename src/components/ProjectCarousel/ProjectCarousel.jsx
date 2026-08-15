@@ -33,6 +33,7 @@ function ProjectCarousel({ images, projectTitle }) {
             <div
               key={image}
               className="project-carousel__slide"
+              style={{ "--project-image": `url(${image})` }}
               role="group"
               aria-roledescription="diapositiva"
               aria-label={`${index + 1} de ${images.length}`}
