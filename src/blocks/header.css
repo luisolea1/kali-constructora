@@ -60,13 +60,13 @@
 }
 
 .header__logo {
-  width: 64px;
+  width: 88px;
   height: auto;
   transition: width 0.35s ease;
 }
 
 .header_scrolled .header__logo {
-  width: 54px;
+  width: 76px;
 }
 
 .header__navigation {
@@ -182,7 +182,7 @@
 
   .header__logo,
   .header_scrolled .header__logo {
-    width: 54px;
+    width: 76px;
   }
 
   .header__navigation {
