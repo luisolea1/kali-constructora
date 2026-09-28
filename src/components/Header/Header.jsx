@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "../../blocks/header.css";
-import logo from "../../images/logo_kali.png";
+import logo from "../../images/logo_aline.png";
 
 const navigationLinks = [
   { name: "Inicio", href: "#inicio" },
@@ -107,8 +107,8 @@ function Header() {
             src={logo}
             alt="Constructora KALI"
             className="header__logo"
-            width="400"
-            height="120"
+            width="1774"
+            height="887"
           />
         </a>
 
