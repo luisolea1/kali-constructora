@@ -105,7 +105,7 @@ function Header() {
         >
           <img
             src={logo}
-            alt="Constructora KALI"
+            alt="Constructora ALINE"
             className="header__logo"
             width="1774"
             height="887"

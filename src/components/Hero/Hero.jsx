@@ -19,7 +19,7 @@ function Hero() {
           </h1>
 
           <p className="hero__description">
-          Cada proyecto representa una visión, una inversión y un legado. En Constructora Kali combinamos diseño, innovación y excelencia constructiva para crear espacios que destacan por su funcionalidad, estética y calidad. Nuestro compromiso es entregar obras ejecutadas con precisión, transparencia y una atención excepcional en cada detalle.
+          Cada proyecto representa una visión, una inversión y un legado. En Constructora ALINE combinamos diseño, innovación y excelencia constructiva para crear espacios que destacan por su funcionalidad, estética y calidad. Nuestro compromiso es entregar obras ejecutadas con precisión, transparencia y una atención excepcional en cada detalle.
           </p>
 
 

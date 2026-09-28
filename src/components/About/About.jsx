@@ -18,7 +18,7 @@ function About() {
 
 
           <p className="about__paragraph">
-  En Constructora KALI entendemos que cada proyecto representa una inversión
+  En Constructora ALINE entendemos que cada proyecto representa una inversión
   importante y una responsabilidad que asumimos con profesionalismo. 
 </p>
 
