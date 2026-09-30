@@ -4,7 +4,7 @@ function Footer() {
   const socialLinks = [
     {
       name: "Instagram",
-      url: "https://www.instagram.com/constructorakali_/",
+      url: "https://www.instagram.com/construction___aline",
     },
     {
       name: "Contacto",
