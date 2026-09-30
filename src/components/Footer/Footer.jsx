@@ -16,7 +16,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__content">
         <p className="footer__copyright">
-          © 2026 CONSTRUCTORA KALI. TODOS LOS DERECHOS RESERVADOS.
+          © 2026 CONSTRUCTORA ALINE. TODOS LOS DERECHOS RESERVADOS.
         </p>
 
         <div className="footer__socials">

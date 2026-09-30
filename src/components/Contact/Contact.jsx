@@ -8,7 +8,7 @@ function Contact() {
     >
       <div className="contact__content">
         <h2 className="contact__title">
-          Inicia tu próximo proyecto con KALI
+          Inicia tu próximo proyecto con nosotros
         </h2>
 
         <p className="contact__description">
