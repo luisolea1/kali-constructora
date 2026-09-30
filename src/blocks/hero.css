@@ -72,6 +72,10 @@
 .hero__image-container {
   position: relative;
   height: 800px;
+  overflow: hidden;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(17, 17, 17, 0.12);
 }
 
 .hero__image {
