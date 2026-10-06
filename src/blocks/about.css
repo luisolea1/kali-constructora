@@ -10,8 +10,17 @@
   padding: 0 64px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas: "text image";
   gap: 64px;
   align-items: center;
+}
+
+.about__text {
+  grid-area: text;
+}
+
+.about__image-container {
+  grid-area: image;
 }
 
 .about__image {
@@ -50,6 +59,9 @@
 @media screen and (max-width: 768px) {
   .about__content {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "text"
+      "image";
     padding: 0 24px;
   }
 
