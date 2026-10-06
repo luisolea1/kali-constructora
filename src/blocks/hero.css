@@ -97,8 +97,9 @@
   .hero__content {
     grid-template-columns: 1fr;
 
-    padding: 0 24px;
+    padding: 24px;
   }
+  
 
   .hero__title {
     font-size: clamp(40px, 12vw, 48px);
