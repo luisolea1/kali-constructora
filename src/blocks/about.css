@@ -10,7 +10,7 @@
   padding: 0 64px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "text image";
+  grid-template-areas: "image text";
   gap: 64px;
   align-items: center;
 }
