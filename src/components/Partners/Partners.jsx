@@ -17,7 +17,7 @@ function Partners() {
         <div className="partners__divider"></div>
 
         <h2 className="partners__title">
-          Empresas que confían en KALI
+          Empresas que confían en nosotros
         </h2>
 
         <p className="partners__description">

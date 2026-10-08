@@ -31,14 +31,14 @@ La interfaz combina una dirección visual sobria con navegación fluida, animaci
 | Motion for React | Animaciones de entrada, progreso de scroll y soporte para movimiento reducido. |
 | Embla Carousel | Carruseles táctiles y responsivos para las galerías de proyectos. |
 | CSS | Sistema visual responsivo, variables globales, efectos translúcidos y estilos por bloque. |
-| Fontsource | Distribución local de las tipografías Inter y Cormorant Garamond. |
+| Fontsource | Distribución local de las tipografías Inter y Manrope. |
 | ESLint | Análisis estático y control de calidad del código. |
 
 ## Diseño y tipografía
 
 El sistema visual utiliza una paleta arquitectónica basada en negro carbón, blanco cálido y acentos dorados. Los colores principales y las medidas generales se administran mediante variables CSS en `src/index.css`.
 
-- **Cormorant Garamond 500:** títulos principales, títulos de sección y nombres de proyectos.
+- **Manrope 400:** títulos principales, títulos de sección y nombres de proyectos.
 - **Inter 400/500:** navegación, párrafos, botones, etiquetas y elementos funcionales.
 - **Encabezado translúcido:** `backdrop-filter`, bordes suaves y sombra adaptativa durante el scroll.
 - **Diseño responsivo:** ajustes específicos para escritorio, laptop, tablet y móvil.
